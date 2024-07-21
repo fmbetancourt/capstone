@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    node: true,
     browser: true,
     es2021: true
   },
@@ -17,6 +18,7 @@ module.exports = {
       }
     }
   ],
+  plugins: ['node'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'

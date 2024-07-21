@@ -6,4 +6,4 @@ function shuffle(a) {
   return a;
 }
 
-module.exports = shuffle; //This should be the last line in the file
+module.exports = shuffle;
